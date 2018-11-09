@@ -13,13 +13,6 @@ module.exports = function (app) {
         res.json(friends);
     });
 
-    //API POST Request-handles when user submits a form & thus submits data to the server.
-    // In each of the below cases, when a user submits form data (a JSON object)
-    // ...the JSON is pushed to the appropriate Javascript array
-
-    // 
-
-
     app.post('/api/friends', function (req, res) {
 
         var friendFinder = {
